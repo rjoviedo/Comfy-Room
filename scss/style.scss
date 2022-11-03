@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(236, 225, 191);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(221, 163, 57);
+    color: rgb(114, 114, 114);
+    padding: 20px;
+}
+}
+   
+.h1-productos {
+    text-decoration: none;
+    color:rgb(114, 114, 114) ;
+}
+.h1-contacto {
+    text-decoration: none;
+    color:rgb(114, 114, 114) ;
+}
+.h1-nosotros {
+    text-decoration: none;
+    color:rgb(114, 114, 114) ;
+}
+.h1-servicios {
+    text-decoration: none;
+    color:rgb(114, 114, 114) ;
+}
+nav ul {
+    background-color:rgb(114, 114, 114) ;
+    width: 100%;
+    text-align: center;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover {
+    background-color:rgb(221, 163, 57);
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+.cocina-p{
+    margin-bottom: 25px;
+}
+.cocina-img{
+    margin-bottom: 100px;
+}
+.living-p{
+    margin-bottom: 25px;
+}
+.living-img{
+    margin-bottom: 100px;
+}
+.sub-living{
+    color: rgb(42, 59, 59);
+}
+.sub-dormitorio{
+    color: rgb(51, 21, 109);
+}
+.dormitorio-p{
+    margin-bottom: 25px;
+}
+.dormitorio-img{
+    margin-bottom: 100px;
+}
+.h2-tittle{
+    margin-bottom: 30px;
+}
+.servicios-art1{
+    margin-bottom: 50px;
+}
+.serv-met{
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(83, 98, 45);
+}
+.servicios-envio-ol {
+    color:rgb(83, 98, 45);
+}
+.servicios-atencion-ul {
+    color: rgb(83, 98, 45);
+
+}
+.nosotros-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+footer {
+    background-color: rgb(221, 163, 57);
+    text-align: left;
+    margin-top: auto;
+}
+footer p{
+    color: black;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    .nosotros-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px){
+    .nosotros-container{
+        grid-template-columns: 1fr;
+    }
+}
