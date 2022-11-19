@@ -58,36 +58,52 @@ img {
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: brown;
+    text-align: center;
 }
-.cocina-p{
-    margin-bottom: 25px;
+.section-cocina{
+    text-align: center;
+    margin: 20px;
 }
 .cocina-img{
-    margin-bottom: 100px;
+    margin: 20px;
 }
-.living-p{
-    margin-bottom: 25px;
+.section-living{
+    text-align: center;
 }
+
+
 .living-img{
-    margin-bottom: 100px;
+    margin: 40px;
 }
 .sub-living{
     color: rgb(42, 59, 59);
 }
+.section-dormitorio{
+    text-align: center;
+}
 .sub-dormitorio{
     color: rgb(51, 21, 109);
 }
-.dormitorio-p{
-    margin-bottom: 25px;
-}
+
 .dormitorio-img{
-    margin-bottom: 100px;
+    margin: 40px;
 }
 .h2-tittle{
     margin-bottom: 30px;
 }
+.section-novedades{
+    text-align: center;
+    margin: 20px;
+}
+.section-rack{
+    text-align: center;
+}
+.section-mesa-luz{
+    text-align: center;
+}
 .servicios-art1{
     margin-bottom: 50px;
+    text-align: center;
 }
 .serv-met{
     margin-bottom: 20px;
@@ -100,15 +116,40 @@ p {
 }
 .servicios-envio-ol {
     color:rgb(83, 98, 45);
+    text-align: center;
+}
+.sub1-metodo-envio{
+    text-align: center;
 }
 .servicios-atencion-ul {
     color: rgb(83, 98, 45);
 
 }
+.entrega-int{
+    text-align: center;
+}
+.p-entrega{
+    text-align: center;
+}
+
+.demora-entrega{
+    text-align: center;
+}
+.section-atencion{
+    text-align: center;
+}
+
 .nosotros-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     
+}
+.img-nosotros{
+    text-align: center;
+}
+
+.form-contacto{
+    text-align: center;
 }
 footer {
     background-color: rgb(221, 163, 57);
